@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --preto-principal: black;
+    --cinza-secundario: #C0C0C0;
+    --fonte-principal: 'Charis SIL', serif;
+    
+}
+
+body {
+    background-color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.principal {
+    text-align: center;
+    text-align-last:auto;
+}
+
+.tab1 tr th {
+    border: 1px solid;
+}
